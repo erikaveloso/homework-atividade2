@@ -4,7 +4,7 @@ import UserCard from "../../components/UserCard";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>UserCard Screen</Text>
+      <Text style={styles.titulo}>Lista de Usuários</Text>
 
       <UserCard nome="Érika" profissao="Backend Developer" />
       <UserCard nome="Carol" profissao="UI/UX Designer" />
